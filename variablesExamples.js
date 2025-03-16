@@ -14,13 +14,13 @@ console.log(boolValue);
 
 
 var a = 1;
-console.log(typeof(a))
+console.log(typeof(a))  // OUTPUT: number
 
 var b = 1.3;
-console.log(typeof(b))
+console.log(typeof(b))  // OUTPUT: number
 
 var c = "String";
-console.log(typeof(c))
+console.log(typeof(c))  // OUTPUT: string
 
 var d = true;
-console.log(typeof(d))
+console.log(typeof(d))  // OUTPUT: boolean
