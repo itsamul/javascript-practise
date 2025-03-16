@@ -50,3 +50,26 @@ console.log(a <= b) //  <= less than equal to
 console.log(a > b ? "True, printing this" : "False, printing this")//  ?: ternary Operator
 console.log(e === d)   //  === equal value and equal type
 console.log(e !== d) //  !== not equal value and not equal type 
+
+
+//Logical Operators
+
+var e = 6;
+var f = 8;
+
+//  LOGICAL AND &&
+console.log(e > 5 && f > 5) //  Output: true
+console.log(true && true)   //  Output: true
+console.log(false && true)  //  Output: false
+console.log(false && false) //  Output: false
+
+//  LOGICAL OR ||
+console.log(e > 5 || f > 5) //  Output: true
+console.log(true || true)   //  Output: true
+console.log(false || true)  //  Output: true
+console.log(true || false)  //  Output: true
+console.log(false || false) //  Output: false
+
+// LOGICAL NOT ! 
+console.log(!true)   // LOGICAL NOT !  Output: false
+console.log(!false)   // LOGICAL NOT !  Output: true
