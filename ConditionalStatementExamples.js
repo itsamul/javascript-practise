@@ -43,7 +43,8 @@ if (a > b && a > c) {
 
 console.log("Switch Example")
 
-var month = 1;
+var month = 1
+;
 
 switch (month) {
     case 1:
